@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570676033426",
+    "project_id": "clone-e47e9",
+    "storage_bucket": "clone-e47e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570676033426:android:cf5c9824b43e590a4c734b",
+        "android_client_info": {
+          "package_name": "com.animated_anand.adminamazonclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9cBSyWMb-MBRgHBsxyqL0lyRFyJRjV1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

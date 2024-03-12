@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"
+        android:elevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:orientation="vertical">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/is_product_images"
+                android:layout_width="wrap_content"
+                android:layout_height="156dp"
+                app:iss_auto_cycle="false"
+                app:iss_text_align="center"/>
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trimmer with refined pin sets"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 ml"
+                android:textSize="15sp"
+                android:layout_marginStart="6dp"
+                android:textColor="@color/grey"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp">
+                <TextView
+                    android:id="@+id/tv_product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$25"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="19sp"/>
+                <TextView
+                    android:id="@+id/tv_edit_product"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/green"
+                    android:background="@drawable/bg_edit"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+            
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
